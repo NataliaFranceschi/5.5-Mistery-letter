@@ -16,7 +16,7 @@ function gerarCarta() {
       carta.className = gerarCssAleatorio();
       p.appendChild(carta);
     }
-  }
+  } contador.innerText = span.length;
 }
 
 botaoGerarCarta.addEventListener('click', gerarCarta);
@@ -41,5 +41,3 @@ function gerarCssAleatorio() {
 function mudarCss(event) {
   event.target.className = gerarCssAleatorio();
 }
-
-contador.innerText = span.length;
