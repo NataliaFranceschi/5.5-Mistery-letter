@@ -1,8 +1,8 @@
 const botaoGerarCarta = document.getElementById('criar-carta');
 const input = document.getElementsByTagName('input')[0];
-const p = document.getElementsByTagName('p')[0];
+const p = document.getElementById('carta-gerada');
 const span = document.getElementsByTagName('span');
-const contador = document.getElementsByTagName('p')[1];
+const contador = document.getElementById('carta-contador');
 
 function gerarCarta() {
   if (input.value.trim() === '') {
