@@ -15,3 +15,4 @@ Projeto desenvolvido no curso da Trybe ao final do bloco 5* do Módulo 1 - Funda
 
 No projeto <strong>Carta Misteriosa</strong> foi desenvolvido um gerador de cartas misteriosas. Dado um valor digitado em uma campo de texto, é gerado uma carta a qual cada palavra possui uma estilização própria.
 
+![misteryLetter](misteryLetter.gif)
